@@ -8,10 +8,12 @@ import { IonicModule, IonicRouteStrategy } from '@ionic/angular';
 
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
+import { PanierComponent } from './page/panier/panier.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    PanierComponent
     ],
   entryComponents: [],
   imports: [

@@ -5,21 +5,21 @@
         "marque": "Chanel",
         "model" : "truc",
         "couleur": "rouge",
-        "image": "src/assets/chanelRouge"
+        "image": "../src/assets/chanelRouge.png"
     }, 
     {
         "id": 2,
         "marque": "Hermès",
         "model" : "Birkin",
         "couleur": "bleu" ,
-        "image": "src/assets/Hermes"
-    },
+        "image": "./..src/assets/Hermes.png"
+    }, 
     {
         "id": 3,
         "marque": "Dior",
         "model" : "MAchin",
         "couleur": "jaune" ,
-        "image": "src/assets/Dior"
+        "image": "../..src/assets/Dior"
     },
     {
         "id": 4,

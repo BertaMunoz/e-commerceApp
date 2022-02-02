@@ -1,10 +1,33 @@
+
 <ion-list>
   <ion-list-header>
     <ion-label>Liste des articles</ion-label>
   </ion-list-header>
 
-  <ion-item *ngFor="let sac of sacs">
-    {{sac.marque}}
-  </ion-item>
+
+  <ion-card>
+    <ion-item *ngFor="let sac of sacs">
+     
+    
+      <ion-card-header>
+        <ion-card-subtitle>{{sac.model}}</ion-card-subtitle>
+        <ion-card-title>{{sac.marque}}</ion-card-title>
+      </ion-card-header>
+      <ion-fab-button slot="end" > <ion-icon  name = "add"> </ion-icon></ion-fab-button>
+    
+      <ion-card-content>
+       {{sac.image}}
+      </ion-card-content>
+     <!-- {{sac.image}}-->
+    </ion-item>
+
+    
+  </ion-card>
+
+  
+
 </ion-list>
+
+
+
 
