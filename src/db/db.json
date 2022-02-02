@@ -1,0 +1,45 @@
+{
+    "sacs": 
+    {
+        "id": 1,
+        "marque": "Chanel",
+        "model" : "truc",
+        "couleur": "rouge",
+        "image": ""
+    }, 
+    {
+        "id": 2,
+        "marque": "Hermès",
+        "model" : "Birkin",
+        "couleur": "bleu" ,
+        "image": ""
+    },
+    {
+        "id": 3,
+        "marque": "Dior",
+        "model" : "MAchin",
+        "couleur": "jaune" ,
+        "image": ""
+    },
+    {
+        "id": 4,
+        "marque": "Saint Laurent",
+        "model" : "Bidule",
+        "couleur": "orange" ,
+        "image": ""
+    },
+    {
+        "id": 5,
+        "marque": "Marc Jacobs",
+        "model" : "Joli",
+        "couleur": "rose" ,
+        "image": ""
+    },
+    {
+        "id": 6,
+        "marque": "Lloewe",
+        "model" : "Chose",
+        "couleur": "Gris" ,
+        "image": ""
+    }
+}
