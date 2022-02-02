@@ -1,4 +1,4 @@
-export class Sacs {
+export class Sac {
     id: number;
     marque: string;
     model: string;

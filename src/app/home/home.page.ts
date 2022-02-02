@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { Sacs } from '../models/sac.entity';
+import { Sac } from '../models/sac.entity';
 import { SacService } from '../services/sac.service';
 
 
@@ -10,7 +10,7 @@ import { SacService } from '../services/sac.service';
 })
 export class HomePage implements OnInit{
 
-sacs: Sacs[] = [];
+sacs: Sac[] = [];
  
  constructor(private service : SacService) {
 
@@ -18,10 +18,12 @@ sacs: Sacs[] = [];
 
 
  initSac(){
-      
+      this.service.findAll().subscribe((data) =>{
+        this.sacs = data;
+      })
  }
 
  ngOnInit() {
-
+  this.initSac();
  }
 }
