@@ -5,42 +5,42 @@
         "marque": "Chanel",
         "model" : "truc",
         "couleur": "rouge",
-        "image": "../src/assets/chanelRouge.png"
+        "image": "../../assets/chanelRouge.png"
     }, 
     {
         "id": 2,
         "marque": "Hermès",
         "model" : "Birkin",
         "couleur": "bleu" ,
-        "image": "./..src/assets/Hermes.png"
+        "image": "../../assets/Hermes.png"
     }, 
     {
         "id": 3,
         "marque": "Dior",
         "model" : "MAchin",
         "couleur": "jaune" ,
-        "image": "../..src/assets/Dior"
+        "image": "../../assets/Dior.png"
     },
     {
         "id": 4,
         "marque": "Saint Laurent",
         "model" : "Bidule",
         "couleur": "orange" ,
-        "image": "src/assets/saintLaurent"
+        "image": "../../assets/saintLaurent.png"
     },
     {
         "id": 5,
         "marque": "Marc Jacobs",
         "model" : "Joli",
         "couleur": "rose" ,
-        "image": "src/assets/marcJacobs"
+        "image": "../../assets/marcJacobs.png"
     },
     {
         "id": 6,
         "marque": "Lloewe",
         "model" : "Chose",
         "couleur": "Gris" ,
-        "image": "src/assets/Lloewe"
+        "image": "../../assets/Lloewe.png"
     }
     ]
 }
