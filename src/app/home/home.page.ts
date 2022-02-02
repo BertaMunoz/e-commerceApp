@@ -11,6 +11,7 @@ import { SacService } from '../services/sac.service';
 export class HomePage implements OnInit{
 
 sacs: Sac[] = [];
+panier :  any = []; 
  
  constructor(private service : SacService) {
 
@@ -23,6 +24,17 @@ sacs: Sac[] = [];
       })
  }
 
+ //pour ajouter au panier au clic sur le bouton
+ ajouter(id: number) {
+  //this.panier.push(id)
+  console.log("article ajouté au panier");
+  
+
+ }
+
+ ajoutFavori(id:number) {
+  console.log("article ajouté à la liste des favoris");
+ }
  ngOnInit() {
   this.initSac();
  }
