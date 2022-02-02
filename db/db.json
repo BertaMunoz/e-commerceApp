@@ -1,45 +1,46 @@
 {
-    "sacs": 
+    "sacs": [
     {
         "id": 1,
         "marque": "Chanel",
         "model" : "truc",
         "couleur": "rouge",
-        "image": ""
+        "image": "src/assets/chanelRouge"
     }, 
     {
         "id": 2,
         "marque": "Hermès",
         "model" : "Birkin",
         "couleur": "bleu" ,
-        "image": ""
+        "image": "src/assets/Hermes"
     },
     {
         "id": 3,
         "marque": "Dior",
         "model" : "MAchin",
         "couleur": "jaune" ,
-        "image": ""
+        "image": "src/assets/Dior"
     },
     {
         "id": 4,
         "marque": "Saint Laurent",
         "model" : "Bidule",
         "couleur": "orange" ,
-        "image": ""
+        "image": "src/assets/saintLaurent"
     },
     {
         "id": 5,
         "marque": "Marc Jacobs",
         "model" : "Joli",
         "couleur": "rose" ,
-        "image": ""
+        "image": "src/assets/marcJacobs"
     },
     {
         "id": 6,
         "marque": "Lloewe",
         "model" : "Chose",
         "couleur": "Gris" ,
-        "image": ""
+        "image": "src/assets/Lloewe"
     }
+    ]
 }
