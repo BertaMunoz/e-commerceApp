@@ -25,3 +25,19 @@
 #container a {
   text-decoration: none;
 }
+ion-content {
+  
+  --overflow: hidden;
+  
+}
+ion-fab-button {
+  width: 25px;
+  height:25px;
+}
+.img {
+  margin-top:20px;
+}
+.boutonfab { 
+  object-position: 50% 50%;
+
+}
