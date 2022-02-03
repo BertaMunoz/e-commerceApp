@@ -1,0 +1,30 @@
+<ion-content *ngIf="sac">
+
+  <ion-header> 
+    <ion-toolbar color="danger"> 
+    <ion-title>Détail</ion-title> 
+    </ion-toolbar> 
+   </ion-header> 
+
+   <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle>{{sac.model}}</ion-card-subtitle>
+      <ion-card-title>{{sac.marque}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+      <ion-list>
+            <img [src]="sac.image">
+      </ion-list>
+    </ion-card-content>
+    <ion-card-content>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. At libero consequuntur iusto, aliquid quisquam voluptatem similique inventore nesciunt explicabo nulla, quos excepturi adipisci hic? Explicabo itaque nostrum rem. Quisquam, sequi?
+      Dolore ex blanditiis maiores ipsam distinctio dignissimos sed, tempora mollitia neque est eos doloribus amet doloremque quisquam magnam debitis perspiciatis enim quis accusamus ea suscipit commodi inventore voluptates fugiat! Vitae.
+    </ion-card-content>
+    
+
+  </ion-card>
+  
+
+
+</ion-content>

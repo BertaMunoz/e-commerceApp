@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { Sac } from '../models/sac.entity';
 import { SacService } from '../services/sac.service';
 
@@ -10,6 +10,7 @@ import { SacService } from '../services/sac.service';
 })
 export class HomePage implements OnInit{
 
+  
 sacs: Sac[] = [];
 panier :  any = []; 
  

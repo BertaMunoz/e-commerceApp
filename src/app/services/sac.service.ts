@@ -16,4 +16,7 @@ export class SacService {
    public findAll() {
       return this.http.get<Sac[]>(`${environment.apiUrl}/sacs`);
     }
+    public findById(id: number) {
+      return this.http.get<Sac>(`${environment.apiUrl}/sacs/${id}`);
+    }
  }
